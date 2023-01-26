@@ -1,0 +1,48 @@
+@import "variables";
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+nav{
+    background-color: $bgcolor;
+    a{
+        color: $font-color;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
+
+@mixin basic-text-style {
+  font-size: 15px;
+  color: red;
+  font-weight: bold;
+  padding: 5px;
+  margin: 4px;
+}
+p{
+  background-color: gray;
+  @include basic-text-style;
+}
+// h2{
+//   background-color: blue;
+//   @include basic-text-style;
+// }
+h2{
+  @extend p
+}
+// .card{
+//     .card-header{
+//         .card-title{
+
+//         }
+//     }
+//     .card-body{
+//         .imgage-box{
+
+//         }
+//     }
+// }

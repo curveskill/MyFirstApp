@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Animation Examples</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="best it course, best institute" />
+    <meta name="description" content="best institute in hyderabad" />
+    <link rel="icon" type="image/x-icon" href="favicon.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+      }
+      .main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      .main .item {
+        height: 200px;
+        width: 100%;
+        background-color: gray;
+        border: 2px solid red;
+        /* animation-name: changeBackground;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: reverse;
+        animation-timing-function: ease-in-out; */
+        /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        animation: changeBackground ease-in-out 10s infinite reverse;
+      }
+
+      /* @keyframes changeBackground {
+        from {
+          background-color: red;
+        }
+        to {
+          background-color: green;
+        }
+      } */
+      @keyframes changeBackground {
+        0% {
+          background-color: red;
+          color: white;
+          font-size: 20px;
+        }
+        30% {
+          background-color: green;
+        }
+        50% {
+          background-color: pink;
+          color: white;
+        }
+        70% {
+          background-color: blue;
+        }
+        70% {
+          background-color: yellow;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!--we are navigating between pages start-->
+    <nav>
+      <a href="index.html" title="Go to home">Home</a>
+      <a href="about-us.html" title="Go to About us page">About Us</a>
+      <a href="contact-us.html" title="Contact details">Contact Us</a>
+      <a href="services.html" title="Services">Services</a>
+    </nav>
+    <!--we are navigating between pages end-->
+    <h1>Flexbox</h1>
+    <div class="main">
+      <div class="item">item 1</div>
+    </div>
+
+    <img
+      src="assest/icons/email.svg"
+      style="width: 40px; height: 40px"
+      alt="Email Icon"
+    />
+    <h1 class="animate__animated animate__bounce">An animated element</h1>
+    <h1 class="animate__animated animate__swing">An animated element</h1>
+    
+  </body>
+</html>

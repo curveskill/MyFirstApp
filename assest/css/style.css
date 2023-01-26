@@ -1,0 +1,68 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  /* border: 2px solid red; */
+}
+
+/* nav style start */
+nav {
+  /* background: #a79b0a !important; */
+  background: #a79b0a;
+}
+
+nav a {
+  background-color: red;
+  box-sizing: border-box;
+  height: 40px;
+  display: inline-block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  border: 2px dashed black;
+}
+
+nav a:hover {
+  background-color: green;
+  border: 2px dashed white;
+}
+/* nav style end */
+
+.card-box {
+  width: 50%;
+  background-color: gray;
+  border: 2px solid red;
+  float: left;
+  height: 300px;
+}
+/* Responsive control */
+@media only screen and (max-width: 500px) {
+  nav {
+    background: black;
+  }
+  nav a {
+    display: block;
+  }
+  .card-box {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  nav {
+    background: yellow;
+  }
+  nav a {
+    display: inline-block;
+  }
+  .card-box {
+    width: 25%;
+  }
+}
+
+/* @media only screen and (max-width:700px)  {
+    nav {
+      background: yellow;
+    }
+  } */

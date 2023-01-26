@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flex box examples</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="best it course, best institute" />
+    <meta name="description" content="best institute in hyderabad" />
+    <link rel="icon" type="image/x-icon" href="favicon.jpg" />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+      }
+      .main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      .main .item {
+        height: 200px;
+        width: 10%;
+        background-color: gray;
+        border: 2px solid red;
+       
+      }
+      .main .item:hover{
+        width: 30%;
+        height: 400px;
+        /* transition-property: width;
+        transition-duration: 2s; */
+        /* transition-delay: 2s; */
+        /* transition-timing-function: linear; */
+        /* transition-timing-function: ease-in; */
+        /* transition-timing-function: ease-out; */
+        /* transition-timing-function: ease-in-out; */
+        transition: width 4s ease-in-out 3s,height 4s ease-in-out 1s;
+      }
+    </style>
+  </head>
+  <body>
+    <!--we are navigating between pages start-->
+    <nav>
+      <a href="index.html" title="Go to home">Home</a>
+      <a href="about-us.html" title="Go to About us page">About Us</a>
+      <a href="contact-us.html" title="Contact details">Contact Us</a>
+      <a href="services.html" title="Services">Services</a>
+    </nav>
+    <!--we are navigating between pages end-->
+    <h1>Flexbox</h1>
+    <div class="main">
+      <div class="item">item 1</div>
+    </div>
+
+    <img src="assest/icons/email.svg" style="width: 40px; height:40px" alt="Email Icon">
+
+  </body>
+</html>

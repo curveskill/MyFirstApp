@@ -1,0 +1,23 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: red;
+}
+nav a {
+  color: green;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+p, h2 {
+  background-color: gray;
+  font-size: 15px;
+  color: red;
+  font-weight: bold;
+  padding: 5px;
+  margin: 4px;
+}/*# sourceMappingURL=mystyle.css.map */
