@@ -14,8 +14,10 @@
 <body>
     <!--start top navbar-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid" style="background-color: gold ; font-size: large; color: brown; margin-bottom: 75px; height: 75px;">
-            <a class="navbar-brand" href="#" style="color: white"><b> <i>webflow</i></b></a>
+        <div class="container-fluid"
+            style="background-color: black ; font-size: large; color: brown; margin-bottom: 0px; height: 75px;">
+            <a class="navbar-brand" href="#" style="color: white;font-size: 28px;margin-left: 75px;"><b>
+                    <i>webflow</i></b></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -26,121 +28,253 @@
                         <a class="nav-link active" aria-current="page" href="#" style="color: white;">Showcase</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Designers</a>
+                        <a class="nav-link" href="#" style="color: wheat;">Designers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" style="margin-right: 800px;">Learns & Support</a>
+                        <a class="nav-link" href="#" style="margin-right: 650px; color: wheat;">Learns & Support</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled">Log In</a>
+                        <a class="nav-link disabled" style="color: wheat;">Log In</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" style="color: white; background-color: blue;">Sign Up for Free </a>
+
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <h1>Recent   Most Liked Most Viewed</h1>
-    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid"
+            style="background-color: white; font-size: large; color: brown; margin-bottom: 10px; height: 75px;">
+            <a class="navbar-brand" href="#" style="color: black;font-size: 28px; margin-left: 75px;">Explore</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color:black;"> the Showcase</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Popular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="margin-right: 20px;">Recent</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Cloneable</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1 style="font-size: 20px;margin: 30px 30px 30px 120px;">Recent&nbsp;&nbsp;&nbsp;Most Liked&nbsp;&nbsp;&nbsp;Most
+        Viewed</h1>
+    <div class="container">
         <div class="row">
             <div class="col-sm-3 mb-3 mb-sm-0">
                 <div class="card" style="height: 18rem;">
-                    <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXnfZ3Xq_gGtWC9BGvQHyMn6gcxgVROg_OjQ&usqp=CAU">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXnfZ3Xq_gGtWC9BGvQHyMn6gcxgVROg_OjQ&usqp=CAU"
+                        height="350px">
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height: 20px;">
+                            <title>eye</title>
+                            <path
+                                d="M11.5,18C15.5,18 18.96,15.78 20.74,12.5C18.96,9.22 15.5,7 11.5,7C7.5,7 4.04,9.22 2.26,12.5C4.04,15.78 7.5,18 11.5,18M11.5,6C16.06,6 20,8.65 21.86,12.5C20,16.35 16.06,19 11.5,19C6.94,19 3,16.35 1.14,12.5C3,8.65 6.94,6 11.5,6M11.5,8C14,8 16,10 16,12.5C16,15 14,17 11.5,17C9,17 7,15 7,12.5C7,10 9,8 11.5,8M11.5,9C9.57,9 8,10.57 8,12.5C8,14.43 9.57,16 11.5,16C13.43,16 15,14.43 15,12.5C15,10.57 13.43,9 11.5,9Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            style="margin:0px 70px; height:20px">
+                            <title>comment</title>
+                            <path
+                                d="M5,3H18C19.66,3 21,4.34 21,6V15C21,16.66 19.66,18 18,18H13.41L9.71,21.71C9.53,21.89 9.28,22 9,22C8.45,22 8,21.55 8,21V18H5C3.34,18 2,16.66 2,15V6C2,4.34 3.34,3 5,3M18,4H5C3.9,4 3,4.9 3,6V15C3,16.1 3.9,17 5,17H9V21L13,17H18C19.1,17 20,16.1 20,15V6C20,4.9 19.1,4 18,4Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height:20px">
+                            <title>heart</title>
+                            <path
+                                d="M4.24,12.25C3.47,11.5 3,10.42 3,9.25C3,6.9 4.9,5 7.25,5C8.83,5 10.21,5.86 10.94,7.14H12.06C12.79,5.86 14.17,5 15.75,5C18.1,5 20,6.9 20,9.25C20,10.42 19.5,11.5 18.76,12.25L11.5,19.5L4.24,12.25M19.46,12.96C20.41,12 21,10.7 21,9.25C21,6.35 18.65,4 15.75,4C14,4 12.45,4.85 11.5,6.17C10.55,4.85 9,4 7.25,4C4.35,4 2,6.35 2,9.25C2,10.7 2.59,12 3.54,12.96L11.5,20.92L19.46,12.96Z" />
+                        </svg>
 
                     </div>
                 </div>
             </div>
             <div class="col-sm-3">
                 <div class="card" style="height: 18rem;">
-                    <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXnfZ3Xq_gGtWC9BGvQHyMn6gcxgVROg_OjQ&usqp=CAU">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXnfZ3Xq_gGtWC9BGvQHyMn6gcxgVROg_OjQ&usqp=CAU"
+                        height="350px">
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height: 20px;">
+                            <title>eye</title>
+                            <path
+                                d="M11.5,18C15.5,18 18.96,15.78 20.74,12.5C18.96,9.22 15.5,7 11.5,7C7.5,7 4.04,9.22 2.26,12.5C4.04,15.78 7.5,18 11.5,18M11.5,6C16.06,6 20,8.65 21.86,12.5C20,16.35 16.06,19 11.5,19C6.94,19 3,16.35 1.14,12.5C3,8.65 6.94,6 11.5,6M11.5,8C14,8 16,10 16,12.5C16,15 14,17 11.5,17C9,17 7,15 7,12.5C7,10 9,8 11.5,8M11.5,9C9.57,9 8,10.57 8,12.5C8,14.43 9.57,16 11.5,16C13.43,16 15,14.43 15,12.5C15,10.57 13.43,9 11.5,9Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            style=" margin:0px 70px;height: 20px;">
+                            <title>comment</title>
+                            <path
+                                d="M5,3H18C19.66,3 21,4.34 21,6V15C21,16.66 19.66,18 18,18H13.41L9.71,21.71C9.53,21.89 9.28,22 9,22C8.45,22 8,21.55 8,21V18H5C3.34,18 2,16.66 2,15V6C2,4.34 3.34,3 5,3M18,4H5C3.9,4 3,4.9 3,6V15C3,16.1 3.9,17 5,17H9V21L13,17H18C19.1,17 20,16.1 20,15V6C20,4.9 19.1,4 18,4Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height: 20px;">
+                            <title>heart</title>
+                            <path
+                                d="M4.24,12.25C3.47,11.5 3,10.42 3,9.25C3,6.9 4.9,5 7.25,5C8.83,5 10.21,5.86 10.94,7.14H12.06C12.79,5.86 14.17,5 15.75,5C18.1,5 20,6.9 20,9.25C20,10.42 19.5,11.5 18.76,12.25L11.5,19.5L4.24,12.25M19.46,12.96C20.41,12 21,10.7 21,9.25C21,6.35 18.65,4 15.75,4C14,4 12.45,4.85 11.5,6.17C10.55,4.85 9,4 7.25,4C4.35,4 2,6.35 2,9.25C2,10.7 2.59,12 3.54,12.96L11.5,20.92L19.46,12.96Z" />
+                        </svg>
                     </div>
                 </div>
             </div>
             <div class="col-sm-3">
                 <div class="card" style="height: 18rem;">
-                    <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXnfZ3Xq_gGtWC9BGvQHyMn6gcxgVROg_OjQ&usqp=CAU">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXnfZ3Xq_gGtWC9BGvQHyMn6gcxgVROg_OjQ&usqp=CAU"
+                        height="350px">
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height: 20px;">
+                            <title>eye</title>
+                            <path
+                                d="M11.5,18C15.5,18 18.96,15.78 20.74,12.5C18.96,9.22 15.5,7 11.5,7C7.5,7 4.04,9.22 2.26,12.5C4.04,15.78 7.5,18 11.5,18M11.5,6C16.06,6 20,8.65 21.86,12.5C20,16.35 16.06,19 11.5,19C6.94,19 3,16.35 1.14,12.5C3,8.65 6.94,6 11.5,6M11.5,8C14,8 16,10 16,12.5C16,15 14,17 11.5,17C9,17 7,15 7,12.5C7,10 9,8 11.5,8M11.5,9C9.57,9 8,10.57 8,12.5C8,14.43 9.57,16 11.5,16C13.43,16 15,14.43 15,12.5C15,10.57 13.43,9 11.5,9Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            style="height: 20px;margin:0px 70px;">
+                            <title>comment</title>
+                            <path
+                                d="M5,3H18C19.66,3 21,4.34 21,6V15C21,16.66 19.66,18 18,18H13.41L9.71,21.71C9.53,21.89 9.28,22 9,22C8.45,22 8,21.55 8,21V18H5C3.34,18 2,16.66 2,15V6C2,4.34 3.34,3 5,3M18,4H5C3.9,4 3,4.9 3,6V15C3,16.1 3.9,17 5,17H9V21L13,17H18C19.1,17 20,16.1 20,15V6C20,4.9 19.1,4 18,4Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height: 20px;">
+                            <title>heart</title>
+                            <path
+                                d="M4.24,12.25C3.47,11.5 3,10.42 3,9.25C3,6.9 4.9,5 7.25,5C8.83,5 10.21,5.86 10.94,7.14H12.06C12.79,5.86 14.17,5 15.75,5C18.1,5 20,6.9 20,9.25C20,10.42 19.5,11.5 18.76,12.25L11.5,19.5L4.24,12.25M19.46,12.96C20.41,12 21,10.7 21,9.25C21,6.35 18.65,4 15.75,4C14,4 12.45,4.85 11.5,6.17C10.55,4.85 9,4 7.25,4C4.35,4 2,6.35 2,9.25C2,10.7 2.59,12 3.54,12.96L11.5,20.92L19.46,12.96Z" />
+                        </svg>
                     </div>
                 </div>
             </div>
             <div class="col-sm-3">
                 <div class="card" style="height:18rem">
-                    <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXnfZ3Xq_gGtWC9BGvQHyMn6gcxgVROg_OjQ&usqp=CAU">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXnfZ3Xq_gGtWC9BGvQHyMn6gcxgVROg_OjQ&usqp=CAU"
+                        height="350px">
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height: 20px;">
+                            <title>eye</title>
+                            <path
+                                d="M11.5,18C15.5,18 18.96,15.78 20.74,12.5C18.96,9.22 15.5,7 11.5,7C7.5,7 4.04,9.22 2.26,12.5C4.04,15.78 7.5,18 11.5,18M11.5,6C16.06,6 20,8.65 21.86,12.5C20,16.35 16.06,19 11.5,19C6.94,19 3,16.35 1.14,12.5C3,8.65 6.94,6 11.5,6M11.5,8C14,8 16,10 16,12.5C16,15 14,17 11.5,17C9,17 7,15 7,12.5C7,10 9,8 11.5,8M11.5,9C9.57,9 8,10.57 8,12.5C8,14.43 9.57,16 11.5,16C13.43,16 15,14.43 15,12.5C15,10.57 13.43,9 11.5,9Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            style="height: 20px; margin:0px 70px">
+                            <title>comment</title>
+                            <path
+                                d="M5,3H18C19.66,3 21,4.34 21,6V15C21,16.66 19.66,18 18,18H13.41L9.71,21.71C9.53,21.89 9.28,22 9,22C8.45,22 8,21.55 8,21V18H5C3.34,18 2,16.66 2,15V6C2,4.34 3.34,3 5,3M18,4H5C3.9,4 3,4.9 3,6V15C3,16.1 3.9,17 5,17H9V21L13,17H18C19.1,17 20,16.1 20,15V6C20,4.9 19.1,4 18,4Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height: 20px;">
+                            <title>heart</title>
+                            <path
+                                d="M4.24,12.25C3.47,11.5 3,10.42 3,9.25C3,6.9 4.9,5 7.25,5C8.83,5 10.21,5.86 10.94,7.14H12.06C12.79,5.86 14.17,5 15.75,5C18.1,5 20,6.9 20,9.25C20,10.42 19.5,11.5 18.76,12.25L11.5,19.5L4.24,12.25M19.46,12.96C20.41,12 21,10.7 21,9.25C21,6.35 18.65,4 15.75,4C14,4 12.45,4.85 11.5,6.17C10.55,4.85 9,4 7.25,4C4.35,4 2,6.35 2,9.25C2,10.7 2.59,12 3.54,12.96L11.5,20.92L19.46,12.96Z" />
+                        </svg>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="container-fluid" style="margin-top: 50px;">
+    <div class="container" style="margin-top: 80px;">
         <div class="row">
             <div class="col-sm-3 mb-3 mb-sm-0">
                 <div class="card" style="height: 18rem;">
-                    <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXnfZ3Xq_gGtWC9BGvQHyMn6gcxgVROg_OjQ&usqp=CAU">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXnfZ3Xq_gGtWC9BGvQHyMn6gcxgVROg_OjQ&usqp=CAU"
+                        height="350px">
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height: 20px;">
+                            <title>eye</title>
+                            <path
+                                d="M11.5,18C15.5,18 18.96,15.78 20.74,12.5C18.96,9.22 15.5,7 11.5,7C7.5,7 4.04,9.22 2.26,12.5C4.04,15.78 7.5,18 11.5,18M11.5,6C16.06,6 20,8.65 21.86,12.5C20,16.35 16.06,19 11.5,19C6.94,19 3,16.35 1.14,12.5C3,8.65 6.94,6 11.5,6M11.5,8C14,8 16,10 16,12.5C16,15 14,17 11.5,17C9,17 7,15 7,12.5C7,10 9,8 11.5,8M11.5,9C9.57,9 8,10.57 8,12.5C8,14.43 9.57,16 11.5,16C13.43,16 15,14.43 15,12.5C15,10.57 13.43,9 11.5,9Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            style="height: 20px; margin:0px 70px">
+                            <title>comment</title>
+                            <path
+                                d="M5,3H18C19.66,3 21,4.34 21,6V15C21,16.66 19.66,18 18,18H13.41L9.71,21.71C9.53,21.89 9.28,22 9,22C8.45,22 8,21.55 8,21V18H5C3.34,18 2,16.66 2,15V6C2,4.34 3.34,3 5,3M18,4H5C3.9,4 3,4.9 3,6V15C3,16.1 3.9,17 5,17H9V21L13,17H18C19.1,17 20,16.1 20,15V6C20,4.9 19.1,4 18,4Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height: 20px;">
+                            <title>heart</title>
+                            <path
+                                d="M4.24,12.25C3.47,11.5 3,10.42 3,9.25C3,6.9 4.9,5 7.25,5C8.83,5 10.21,5.86 10.94,7.14H12.06C12.79,5.86 14.17,5 15.75,5C18.1,5 20,6.9 20,9.25C20,10.42 19.5,11.5 18.76,12.25L11.5,19.5L4.24,12.25M19.46,12.96C20.41,12 21,10.7 21,9.25C21,6.35 18.65,4 15.75,4C14,4 12.45,4.85 11.5,6.17C10.55,4.85 9,4 7.25,4C4.35,4 2,6.35 2,9.25C2,10.7 2.59,12 3.54,12.96L11.5,20.92L19.46,12.96Z" />
+                        </svg>
 
                     </div>
                 </div>
             </div>
             <div class="col-sm-3">
                 <div class="card" style="height: 18rem;">
-                    <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXnfZ3Xq_gGtWC9BGvQHyMn6gcxgVROg_OjQ&usqp=CAU">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXnfZ3Xq_gGtWC9BGvQHyMn6gcxgVROg_OjQ&usqp=CAU"
+                        height="350px">
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height: 20px;">
+                            <title>eye</title>
+                            <path
+                                d="M11.5,18C15.5,18 18.96,15.78 20.74,12.5C18.96,9.22 15.5,7 11.5,7C7.5,7 4.04,9.22 2.26,12.5C4.04,15.78 7.5,18 11.5,18M11.5,6C16.06,6 20,8.65 21.86,12.5C20,16.35 16.06,19 11.5,19C6.94,19 3,16.35 1.14,12.5C3,8.65 6.94,6 11.5,6M11.5,8C14,8 16,10 16,12.5C16,15 14,17 11.5,17C9,17 7,15 7,12.5C7,10 9,8 11.5,8M11.5,9C9.57,9 8,10.57 8,12.5C8,14.43 9.57,16 11.5,16C13.43,16 15,14.43 15,12.5C15,10.57 13.43,9 11.5,9Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            style="height: 20px; margin:0px 70px">
+                            <title>comment</title>
+                            <path
+                                d="M5,3H18C19.66,3 21,4.34 21,6V15C21,16.66 19.66,18 18,18H13.41L9.71,21.71C9.53,21.89 9.28,22 9,22C8.45,22 8,21.55 8,21V18H5C3.34,18 2,16.66 2,15V6C2,4.34 3.34,3 5,3M18,4H5C3.9,4 3,4.9 3,6V15C3,16.1 3.9,17 5,17H9V21L13,17H18C19.1,17 20,16.1 20,15V6C20,4.9 19.1,4 18,4Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height: 20px;">
+                            <title>heart</title>
+                            <path
+                                d="M4.24,12.25C3.47,11.5 3,10.42 3,9.25C3,6.9 4.9,5 7.25,5C8.83,5 10.21,5.86 10.94,7.14H12.06C12.79,5.86 14.17,5 15.75,5C18.1,5 20,6.9 20,9.25C20,10.42 19.5,11.5 18.76,12.25L11.5,19.5L4.24,12.25M19.46,12.96C20.41,12 21,10.7 21,9.25C21,6.35 18.65,4 15.75,4C14,4 12.45,4.85 11.5,6.17C10.55,4.85 9,4 7.25,4C4.35,4 2,6.35 2,9.25C2,10.7 2.59,12 3.54,12.96L11.5,20.92L19.46,12.96Z" />
+                        </svg>
                     </div>
                 </div>
             </div>
             <div class="col-sm-3">
                 <div class="card" style="height: 18rem;">
-                    <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXnfZ3Xq_gGtWC9BGvQHyMn6gcxgVROg_OjQ&usqp=CAU">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXnfZ3Xq_gGtWC9BGvQHyMn6gcxgVROg_OjQ&usqp=CAU"
+                        height="350px">
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height: 20px;">
+                            <title>eye</title>
+                            <path
+                                d="M11.5,18C15.5,18 18.96,15.78 20.74,12.5C18.96,9.22 15.5,7 11.5,7C7.5,7 4.04,9.22 2.26,12.5C4.04,15.78 7.5,18 11.5,18M11.5,6C16.06,6 20,8.65 21.86,12.5C20,16.35 16.06,19 11.5,19C6.94,19 3,16.35 1.14,12.5C3,8.65 6.94,6 11.5,6M11.5,8C14,8 16,10 16,12.5C16,15 14,17 11.5,17C9,17 7,15 7,12.5C7,10 9,8 11.5,8M11.5,9C9.57,9 8,10.57 8,12.5C8,14.43 9.57,16 11.5,16C13.43,16 15,14.43 15,12.5C15,10.57 13.43,9 11.5,9Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            style="height: 20px; margin:0px 70px">
+                            <title>comment</title>
+                            <path
+                                d="M5,3H18C19.66,3 21,4.34 21,6V15C21,16.66 19.66,18 18,18H13.41L9.71,21.71C9.53,21.89 9.28,22 9,22C8.45,22 8,21.55 8,21V18H5C3.34,18 2,16.66 2,15V6C2,4.34 3.34,3 5,3M18,4H5C3.9,4 3,4.9 3,6V15C3,16.1 3.9,17 5,17H9V21L13,17H18C19.1,17 20,16.1 20,15V6C20,4.9 19.1,4 18,4Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height: 20px;">
+                            <title>heart</title>
+                            <path
+                                d="M4.24,12.25C3.47,11.5 3,10.42 3,9.25C3,6.9 4.9,5 7.25,5C8.83,5 10.21,5.86 10.94,7.14H12.06C12.79,5.86 14.17,5 15.75,5C18.1,5 20,6.9 20,9.25C20,10.42 19.5,11.5 18.76,12.25L11.5,19.5L4.24,12.25M19.46,12.96C20.41,12 21,10.7 21,9.25C21,6.35 18.65,4 15.75,4C14,4 12.45,4.85 11.5,6.17C10.55,4.85 9,4 7.25,4C4.35,4 2,6.35 2,9.25C2,10.7 2.59,12 3.54,12.96L11.5,20.92L19.46,12.96Z" />
+                        </svg>
                     </div>
                 </div>
             </div>
             <div class="col-sm-3">
                 <div class="card" style="height:18rem">
-                    <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXnfZ3Xq_gGtWC9BGvQHyMn6gcxgVROg_OjQ&usqp=CAU">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXnfZ3Xq_gGtWC9BGvQHyMn6gcxgVROg_OjQ&usqp=CAU"
+                        height="350px">
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height: 20px;">
+                            <title>eye</title>
+                            <path
+                                d="M11.5,18C15.5,18 18.96,15.78 20.74,12.5C18.96,9.22 15.5,7 11.5,7C7.5,7 4.04,9.22 2.26,12.5C4.04,15.78 7.5,18 11.5,18M11.5,6C16.06,6 20,8.65 21.86,12.5C20,16.35 16.06,19 11.5,19C6.94,19 3,16.35 1.14,12.5C3,8.65 6.94,6 11.5,6M11.5,8C14,8 16,10 16,12.5C16,15 14,17 11.5,17C9,17 7,15 7,12.5C7,10 9,8 11.5,8M11.5,9C9.57,9 8,10.57 8,12.5C8,14.43 9.57,16 11.5,16C13.43,16 15,14.43 15,12.5C15,10.57 13.43,9 11.5,9Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            style="height: 20px; margin:0px 70px">
+                            <title>comment</title>
+                            <path
+                                d="M5,3H18C19.66,3 21,4.34 21,6V15C21,16.66 19.66,18 18,18H13.41L9.71,21.71C9.53,21.89 9.28,22 9,22C8.45,22 8,21.55 8,21V18H5C3.34,18 2,16.66 2,15V6C2,4.34 3.34,3 5,3M18,4H5C3.9,4 3,4.9 3,6V15C3,16.1 3.9,17 5,17H9V21L13,17H18C19.1,17 20,16.1 20,15V6C20,4.9 19.1,4 18,4Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height: 20px;">
+                            <title>heart</title>
+                            <path
+                                d="M4.24,12.25C3.47,11.5 3,10.42 3,9.25C3,6.9 4.9,5 7.25,5C8.83,5 10.21,5.86 10.94,7.14H12.06C12.79,5.86 14.17,5 15.75,5C18.1,5 20,6.9 20,9.25C20,10.42 19.5,11.5 18.76,12.25L11.5,19.5L4.24,12.25M19.46,12.96C20.41,12 21,10.7 21,9.25C21,6.35 18.65,4 15.75,4C14,4 12.45,4.85 11.5,6.17C10.55,4.85 9,4 7.25,4C4.35,4 2,6.35 2,9.25C2,10.7 2.59,12 3.54,12.96L11.5,20.92L19.46,12.96Z" />
+                        </svg>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
     <!-- start javascript CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
