@@ -1,67 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>
-       Welcome to pradeep web
-    </title>
-    <meta charset="UTF-8">
-    <meta name="keywords" content="best it course, best institute">
-    <meta name="description" content="best institute in hyderabad">
-    <link rel="icon" type="image/x-icon" href="assest/images/icons/favicon.jpg">
-
+  <head>
+    <title>Welcome to pradeep web</title>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="best it course, best institute" />
+    <meta name="description" content="best institute in hyderabad" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assest/images/icons/favicon.jpg"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- adding external css -->
-    <link rel="stylesheet" href="assest/css/style.css">
-</head>
+    <link rel="stylesheet" href="assest/css/style.css" />
+    <style>
+        .card .card-img-top{
+            width: 100%;
+        }
+    </style>
+  </head>
 
-<body>
+  <body>
     <!--we are navigating between pages start-->
-    <nav>
-        <a href="index.html" title="Go to home">Home</a>
-        <a href="about-us.html" title="Go to About us page">About Us</a>
-        <a href="contact-us.html" title="Contact details">Contact Us</a>
-        <a href="services.html" title="Services">Services</a>
-    </nav>
-     <!--we are navigating between pages end-->
+    <h4>Dashboard</h4>
 
-    <!--iframe shaing image-webpage start-->
-    <iframe src="image-example.html" width="800px" height="600px" frameborder="0"></iframe>
-    <iframe src="https://www.wikipedia.org/" width="800px" height="600px" frameborder="0"></iframe>
-    <!-- <iframe src="services.html" width="800px" height="600px" frameborder="0"></iframe> -->
-    <!--iframe shaing image-webpage end-->
+    <section>
+        <div class="container">
+            <div class="row" id="productDiv">
 
-    <h1>Home Page</h1>
+            </div>
+        </div>
+    </section>
+    <script>
+      const productList = [];
+    
+      //created dummy records with loop
+      for (let i = 0; i < 100; i++) {
+        productList.push({
+          id: i + 1,
+          productImg:
+            "https://assets.website-files.com/5e23faeb992bfa50102a55e1/60f69c4598310bd6d861cf71_60198b017633d7dc8bf693a0_image-blogpost-webflow-meta%402x-1.jpg",
+          icon1: "",
+          icon2: "",
+        });
+      }
+      console.log(productList);
 
-    <h3>Ordered List:</h3>
-    <!--oedered list start-->
-    <ol>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-    </ol>
-    <!--oedered list end-->
-    <hr>
-    <h3>Unordered List:</h3>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-    </ul>
+      
+      const pDiv = document.getElementById('productDiv');
+      let prepareProductList = "";
 
-    <h3>Description List:</h3>
-    <dl>
-        <dt>Mobile</dt>
-        <dd>Samsung</dd>
-        <dd>OPPO</dd>
-        <dd>Nokia</dd>
-        <dd>Realme</dd>
-        <dd>VIVO</dd>
-    </dl>
-    <dl>
-        <dt>Laptop</dt>
-        <dd>HP</dd>
-        <dd>Dell</dd>
-    </dl>
+      productList.forEach((el, index, self)=>{
+        prepareProductList += `
+                    <div class="col-sm-3 col-md-4 col-lg-4">
+                        <div class="card">
+                            <img src="${el.productImg}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">${el.id}</h5>
+                            </div>
+                        </div>
+                    </div>
+                      `
+      });
 
-</body>
-
+      pDiv.innerHTML = prepareProductList;
+    </script>
+  </body>
 </html>
